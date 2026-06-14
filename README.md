@@ -23,6 +23,17 @@
 - Springdoc OpenAPI
 - JUnit 5, Mockito, MockMvc, H2, Spring AMQP Test
 
+## Быстрый старт
+
+После клонирования репозитория нужно перейти в папку Spring Boot проекта:
+
+```bash
+git clone https://github.com/xludw1ng/test_parnas.git
+cd test_parnas/test_parnas
+```
+
+Если проект уже открыт из папки, где находится `pom.xml`, команду `cd` выполнять не нужно.
+
 ## Запуск инфраструктуры
 
 Для локального запуска нужны PostgreSQL и RabbitMQ. Они поднимаются через Docker Compose:
